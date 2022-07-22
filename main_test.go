@@ -11,8 +11,8 @@ func TestDatabaseInsertSuccessful(t *testing.T) {
 
 	// Act
 	person := getRecord()
+	
 	// Assert
-
 	if person.PersonId != 1 {
 		t.Error("Invalid Id")
 	}
